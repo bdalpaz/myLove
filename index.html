@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Uma Playlist Pra Você 💕</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&family=Pacifico&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 24px;
+    }
+
+    .card {
+      background: #fff;
+      max-width: 900px;
+      width: 100%;
+      border-radius: 24px;
+      padding: 32px;
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .card::before,
+    .card::after {
+      content: '❤';
+      position: absolute;
+      font-size: 120px;
+      opacity: 0.08;
+      color: #ff4d6d;
+    }
+
+    .card::before {
+      top: -20px;
+      left: -20px;
+    }
+
+    .card::after {
+      bottom: -20px;
+      right: -20px;
+    }
+
+    h1 {
+      font-family: 'Pacifico', cursive;
+      text-align: center;
+      color: #ff4d6d;
+      margin-bottom: 8px;
+    }
+
+    .subtitle {
+      text-align: center;
+      color: #666;
+      margin-bottom: 32px;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    li {
+      background: linear-gradient(135deg, #ffe3ec, #fff0f5);
+      border-radius: 16px;
+      padding: 16px 20px;
+      margin-bottom: 14px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    li:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+    }
+
+    .music {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    .music strong {
+      color: #c9184a;
+      font-size: 16px;
+    }
+
+    .music span {
+      font-size: 14px;
+      color: #555;
+    }
+
+    a {
+      text-decoration: none;
+      background: #ff4d6d;
+      color: #fff;
+      padding: 8px 14px;
+      border-radius: 999px;
+      font-size: 14px;
+      transition: background 0.2s ease, transform 0.2s ease;
+      white-space: nowrap;
+    }
+
+    a:hover {
+      background: #c9184a;
+      transform: scale(1.05);
+    }
+
+    footer {
+      margin-top: 32px;
+      text-align: center;
+      font-size: 14px;
+      color: #777;
+    }
+
+    footer span {
+      color: #ff4d6d;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Por todas as cartas de amor que eu ainda não te entreguei 💌</h1>
+    <p class="subtitle">Só queria te dizer que eu te amo mais que tudo e que você faz todos os meus dias mais felizes mesmo quando você está longe de mim, sou uma pessoa muito melhor com você, meu corpo se percebe em paz quando está perto do seu.
+        Eu não consigo parar de pensar em você, queria te dizer e fazer entender tudo o que passa pela minha mente porém acho que essas músicas explicam melhor💘</p>
+
+    <ul>
+        <li>
+        <div class="music">
+            <strong>Lonely Day</strong>
+            <span>System Of A Down</span>
+             <span style="font-size: 13px; color: hwb(343 46% 11%);">
+                Nossa música hihihi
+            </span>
+        </div>
+        <a href="https://www.youtube.com/watch?v=DnGdoEa1tPg&list=RDDnGdoEa1tPg&start_radio=1" target="_blank">Ouvir ▶</a>
+        </li>
+      
+        <li>
+        <div class="music">
+          <strong>There Is a Light That Never Goes Out</strong>
+          <span>The Smiths</span>
+            <span style="font-size: 13px; color: hwb(343 46% 11%);">
+                Amo essa música e sim to die by your side is such a heavenly way to die 
+            </span>
+        </div>
+        <a href="https://youtu.be/3r-qDvD3F3c?si=1pqzT2NdoWqkot5f" target="_blank">Ouvir ▶</a>
+      </li>
+
+      <li>
+        <div class="music">
+          <strong>Every Breath You Take</strong>
+          <span>The Police</span>
+          <span style="font-size: 13px; color: hwb(343 46% 11%);">
+               Oh, can't you see, You belong to me!!!!  MUAHAHAAHAHAHAHHA (risada maligna obsessiva)
+            </span>
+        </div>
+        <a href="https://youtu.be/iOT_zuDHvVk?si=Ho0p9djXkAG2RDgV" target="_blank">Ouvir ▶</a>
+      </li>
+
+      <li>
+        <div class="music">
+          <strong>About You</strong>
+          <span>The 1975</span>
+              <span style="font-size: 13px; color: hwb(343 46% 11%);">
+                A gente literalmente se casou em nossas mentes, omg 
+            </span>
+        </div>
+        <a href="https://youtu.be/tGv7CUutzqU?si=e80Hk7g6G6Q6YnmE" target="_blank">Ouvir ▶</a>
+      </li>
+
+      <li>
+        <div class="music">
+          <strong>Sailor Song</strong>
+          <span>Gigi Perez</span>
+          <span style="font-size: 13px; color: hwb(343 46% 11%);">
+                Acho essa música tão pitica sempre penso em você quando escuto ela
+                "I sleep so I can see you 'cause I hate to wait so long" -> eu fico exatamente assim quando ta próximo de ir ver você
+            </span>
+        </div>
+        <a href="https://youtu.be/1lrFsXkT_rM?si=PoalJk4dusjRMm_y" target="_blank">Ouvir ▶</a>
+      </li>
+
+      <li>
+        <div class="music">
+          <strong>Those Eyes</strong>
+          <span>New West</span>
+          <span style="font-size: 13px; color: hwb(343 46% 11%);">
+            Eu sei que parece brega dizer isso (porque na verdade é bem brega dizer isso) mas sim todas as vezes em que fecho meus olhos tudo que vejo é você
+        </span>
+        </div>
+        <a href="https://youtu.be/i9UDD6zyCGs?si=hIN0PxFIpKrEpLyu" target="_blank">Ouvir ▶</a>
+      </li>
+
+      <li>
+        <div class="music">
+          <strong>Iris</strong>
+          <span>Goo Goo Dolls</span>
+          <span style="font-size: 13px; color: hwb(343 46% 11%);">
+            Sendo brega again, só queria dizer que essa é uma das minhas músicas favoritas desde que eu tava no primeiro ano do ensino médio, sempre escutei ela quando precisava parar de pensar em tudo e concentrar meus sentimentos
+            em coisas boas, e agora eu só penso em você quando escuto ela... É que sla, when everything's made to be broken i just want you to know who i am, sabe?
+        </span>
+        </div>
+        <a href="https://youtu.be/NdYWuo9OFAw?si=OOgWxNeIf3HcXUNr" target="_blank">Ouvir ▶</a>
+      </li>
+
+      <li>
+        <div class="music">
+          <strong>Sleep On The Floor</strong>
+          <span>The Lumineers</span>
+          <span style="font-size: 13px; color: hwb(343 46% 11%);">
+            Let your mother know you're safe
+            And by the time she wakes
+            We'll have driven through the state
+            We'll have driven through the night, baby come on... 
+            Sinto que essa parte da música representa bem o que eu sinto as vezes, é tipo querer fugir com você pra qualquer lugar, de preferência um lugar onde só exista você e eu, sem nenhum resquício do passado, só nós dois vivendo o presente e planejando o futuro
+            mas talvez seja só um pensamento de fim de noite já sou feliz com você em qualquer lugar e espaço tempo
+        </span>
+        </div>
+        <a href="https://youtu.be/v4pi1LxuDHc?si=LEnn67ijY9cVV1Uu" target="_blank">Ouvir ▶</a>
+      </li>
+
+      <li>
+        <div class="music">
+          <strong>Best Part</strong>
+          <span>Daniel Caesar & H.E.R.</span>
+          <span style="font-size: 13px; color: hwb(343 46% 11%);">
+            You're the coffee that I need... Convenhamos né, top declarações de amor vindo de uma pessoa que não vive sem café hhahahahaha brinks te amo
+        </span>
+        </div>
+        <a href="https://youtu.be/vBy7FaapGRo?si=7Ff7Uil-J_AVFecd" target="_blank">Ouvir ▶</a>
+      </li>
+
+      <li>
+        <div class="music">
+            <strong>Congratulations</strong>
+            <span>Mac Miller feat. Bilal</span>
+            <span style="font-size: 13px; color: hwb(343 46% 11%);">
+                You remind me of the color blue,
+                Boy, I'm so in love with you... 
+                Baby, you were everything I ever wanted,
+                Bought a wedding ring, it's in my pocket
+                (acho que eu que escrevi essa e vendi pro mac miller só pode)
+            </span>
+         </div>
+        <a href="https://youtu.be/JoFkQ7iAQcw?si=fKk_VbAbBOWs5c25" target="_blank">Ouvir ▶</a>
+     </li>
+
+
+      <li>
+  <div class="music">
+    <strong>Sweet</strong>
+    <span>Cigarettes After Sex</span>
+     <span style="font-size: 13px; color: hwb(343 46% 11%);">
+        It's so sweet, knowing that you love me. Knowing that I love you, and running my fingers through your hair, It's so sweet.... Como pode
+        uma música descrever tão perfeitamente o que eu sinto quando você deita no meu colo?
+    </span>
+  </div>
+  <a href="https://youtu.be/pZ31pyTZdh0?si=BsizJdmRHd0JJ11b" target="_blank">Ouvir ▶</a>
+</li>
+
+<li>
+  <div class="music">
+    <strong>I Wanna Be Yours</strong>
+    <span>Arctic Monkeys</span>
+    <span style="font-size: 13px; color: hwb(343 46% 11%);">
+        I wanna nada porque i already am
+    </span>
+  </div>
+  <a href="https://youtu.be/nyuo9-OjNNg?si=tpIFNJdtKsnR653u" target="_blank">Ouvir ▶</a>
+</li>
+
+<li>
+  <div class="music">
+    <strong>Ends of the Earth</strong>
+    <span>Lord Huron</span>
+     <span style="font-size: 13px; color: hwb(343 46% 11%);">
+        Wayfarin' strangers and all kinds of danger.
+        Please don't say I'm goin' alone... Eu reformularia a rota por você, até porque meu futuro é contigo então não faz sentido eu ir sozinha 
+    </span>
+  </div>
+  <a href="https://youtu.be/-MH-UmYkXiM?si=xECeLx67jmhm4UdE" target="_blank">Ouvir ▶</a>
+</li>
+
+<li>
+  <div class="music">
+    <strong>Riptide</strong>
+    <span>Vance Joy</span>
+    <span style="font-size: 13px; color: hwb(343 46% 11%);">
+      A minha vida quando eu to ao seu lado tem exatamente esse som!!!! Se nossa história por acaso fosse transformada em um filme essa seria literalmente a trilha sonora perfeita 
+    </span>
+  </div>
+  <a href="https://youtu.be/uJ_1HMAGb4k?si=VAtGjTq72HJ1ICMx" target="_blank">Ouvir ▶</a>
+</li>   
+
+<li>
+  <div class="music">
+    <strong>All of Me</strong>
+    <span>John Legend</span>
+     <span style="font-size: 13px; color: hwb(343 46% 11%);">
+        Se me perguntar o porquê te amo, apenas saiba disso (dizendo na intenção de você interpretar como quiser): You're my end and my beginning... 
+        literalmente tudo de mim ama tudo de você e eu não consigo imaginar minha vida sem você, todos os meus cenários futuros de casos de sucesso que crio antes de dormir são ao seu lado
+    </span>
+  </div>
+  <a href="https://youtu.be/450p7goxZqg?si=0DVs22tXh_7DBF8w" target="_blank">Ouvir ▶</a>
+</li>
+
+<li>
+  <div class="music">
+    <strong>Say You Won’t Let Go</strong>
+    <span>James Arthur</span>
+     <span style="font-size: 13px; color: hwb(343 46% 11%);">
+    I wake you up with some breakfast in bed, I'll bring you coffee with a kiss on your head
+    and I'll take the kids to school, wave them goodbye
+    and I'll thank my lucky stars for that Day*.... Apenas isso que preciso dizer
+</span>
+  </div>
+  <a href="https://youtu.be/0yW7w8F2TVA?si=pYO3o5MH_1BTsZCs" target="_blank">Ouvir ▶</a>
+</li>
+
+<li>
+  <div class="music">
+    <strong>Nothing’s Gonna Hurt You Baby</strong>
+    <span>Cigarettes After Sex</span>
+      <span style="font-size: 13px; color: hwb(343 46% 11%);">
+    Nothing's gonna take you from my side, leve isso como quiser, um gesto romântico, uma promessa ou uma ameaça hehe
+</span>
+  </div>
+  <a href="https://youtu.be/QI8VrXkffcg?si=yrgLfw8ARbMldCPW" target="_blank">Ouvir ▶</a>
+</li>
+
+<li>
+  <div class="music">
+    <strong>Always, I’ll Care</strong>
+    <span>Jeremy Zucker</span>
+        <span style="font-size: 13px; color: hwb(343 46% 11%);">
+    Will you call me still, just to hear my voice? Acho essa música fofinha mas ao mesmo tempo triste, então eu vejo como uma mensagem de que não importa o que aconteça eu sempre vou me importar com você mas não, nunca vou te ignorar e muito menos deixar de responder suas mensagens ou retornar ligações kkkk 
+        </span>
+  </div>
+  <a href="https://youtu.be/N6SQ9QoSjCI?si=AMjPQjwLX6RBgZwc" target="_blank">Ouvir ▶</a>
+</li>
+
+<li>
+  <div class="music">
+    <strong>Valentine</strong>
+    <span>Laufey</span>
+    <span style="font-size: 13px; color: hwb(343 46% 11%);">
+        be my valentine forever and always
+    </span>
+  </div>
+  <a href="https://youtu.be/tyKu0uZS86Q?si=DHehq0G5f-0BQ1ht" target="_blank">Ouvir ▶</a>
+</li>
+
+<li>
+  <div class="music">
+    <strong>Songbird</strong>
+    <span>Fleetwood Mac</span>
+     <span style="font-size: 13px; color: hwb(343 46% 11%);">
+        O quanto eu amo essa música é absurdo, sei que digo isso sempre kkkk sim, talvez eu ame várias músicas mas essa música, quando eu escuto explicam
+        penso na gente bem velinhos juntos, sentados na varanda da nossa casa de praia vendo o pôr do sol e pensando o quanto somos gratos por termos encontrado um ao outro nessa vida (também).
+    </span>
+  </div>
+  <a href="https://youtu.be/y9Hqn8x6a8s?si=uBr1UGUAUzI3JPDF" target="_blank">Ouvir ▶</a>
+</li>
+
+<li>
+  <div class="music">
+    <strong>Je te laisserai des mots</strong>
+    <span>Patrick Watson</span>
+        <span style="font-size: 13px; color: hwb(343 46% 11%);">
+            Essa música é engraçada, sabe por que?
+            é que tipo ....
+            En fait, je t'ai laissé des notes, regarde dans ton sac à dos 
+        </span>
+  </div>
+  <a href="https://youtu.be/XZfyyk0_Yqs?si=p8uM-OwTfCi9MxEw" target="_blank">Ouvir ▶</a>
+</li>
+
+<li>
+  <div class="music">
+    <strong>I Wanna Be Loved By You</strong>
+    <span>Marilyn Monroe</span>
+       <span style="font-size: 13px; color: hwb(343 46% 11%);">
+          Just you and nobody else but you
+        </span>
+  </div>
+  <a href="https://youtu.be/fWHsAmTrOIA?si=3RJrY8KFrby3uQEb" target="_blank">Ouvir ▶</a>
+</li>
+
+<li>
+  <div class="music">
+    <strong>Dark Red</strong>
+    <span>Steve Lacy</span>
+         <span style="font-size: 13px; color: hwb(343 46% 11%);">
+         Don't you give me up, please don't give up on me, I belong with you, and only you, baby
+         Only you, darling, only you, babe
+         Only you, my boy, only you, babe
+        </span>
+  </div>
+  <a href="https://youtu.be/5da3D9ZfMQo?si=8jN0zc4y2l1iiTx5" target="_blank">Ouvir ▶</a>
+</li>
+
+<li>
+  <div class="music">
+    <strong>Meet Me At Our Spot</strong>
+    <span>THE ANXIETY, WILLOW, Tyler Cole</span>
+    <span style="font-size: 13px; color: hwb(343 46% 11%);">
+        Willow tava certa quando disse: Amor, você vem dar uma volta? Só quero olhar em seus olhos... Talvez (Com certeza) esse seja meu hobby favorito, porque todas as vezes que admiro seu olhar eu percebo que finalmente achei meu lar.
+        </span>
+  </div>
+  <a href="https://youtu.be/RyJ5GbzEZC0?si=bAzeqJGjYO2-n5It" target="_blank">Ouvir ▶</a>
+</li>
+
+<li>
+  <div class="music">
+    <strong>Look After You</strong>
+    <span>The Fray</span>
+        <span style="font-size: 13px; color: hwb(343 46% 11%);">
+        'Cause I would walk through fire for you, just let me look after you... Eu só quero cuidar de você, do seu bem estar, da sua felicidade, do seu sorriso, do seu sono, da sua vida. Por você eu to aprendendo até a cuidar melhor de mim  <span>❤</span>
+        </span>
+  </div>
+  <a href="https://youtu.be/4lqYdS-Ell8?si=lwW4IaAM4OXNJakU" target="_blank">Ouvir ▶</a>
+</li>
+
+<li>
+  <div class="music">
+    <strong>This Side of Paradise</strong>
+    <span>Coyote Theory</span>
+      <span style="font-size: 13px; color: hwb(343 46% 11%);">
+        Acho essa música tão perfeitinha, eu vivia escutando ela mas agora nem faz mais sentindo, não me identifico mais com a letra, nunca mais me senti sozinha desde que te conheci.
+     </span>
+  </div>
+  <a href="https://youtu.be/FHT3xNYZU8o?si=JDqQJz39HKZ1MBqi" target="_blank">Ouvir ▶</a>
+</li>
+
+<li>
+  <div class="music">
+    <strong>The Only Exception</strong>
+    <span>Paramore</span>
+    <span style="font-size: 13px; color: hwb(343 46% 11%);">
+        Leave me with some kind of proof it's not a dream, as vezes parecia mesmo que tudo isso era um sonho bom demais pra ser verdade, mas aí eu acordava e percebia que você estava do meu lado e ai notava que é real sim, eu te amo tanto que chega a doer até em sonho
+     </span>
+  </div>
+  <a href="https://youtu.be/ChXcD6Z4uvQ?si=bG-8yvh-SQhBGWUU" target="_blank">Ouvir ▶</a>
+</li>
+
+<li>
+  <div class="music">
+    <strong>Beautiful Boy (Darling Boy)</strong>
+    <span>John Lennon</span>
+     <span style="font-size: 13px; color: hwb(343 46% 11%);">
+        Podemos cantar essa no fututo depois da historinha, penso em nós
+    </span>
+  </div>
+  <a href="https://youtu.be/HB5KwxPwQj8?si=yZR6Un8odYhnPC1I" target="_blank">Ouvir ▶</a>
+</li>
+
+<li>
+  <div class="music">
+    <strong>Until I Found You</strong>
+    <span>Stephen Sanchez</span>
+        <span style="font-size: 13px; color: hwb(343 46% 11%);">
+           I was lost within the darkness, but then I found you e assim a minha vida fez sentido, dia após dia me sinto vivendo a história que foi escrita pra mim, sinto que agora as coisas fazem sentido
+           e estou ligeiramente no caminho certo hihi
+        </span>
+  </div>
+  <a href="https://youtu.be/kPlSyYtE63M?si=WrQZj5aZxC6MFzxJ" target="_blank">Ouvir ▶</a>
+</li>
+
+<li>
+  <div class="music">
+    <strong>P.S. I LOVE YOU</strong>
+    <span>Paul Partohap</span>
+        <span style="font-size: 13px; color: hwb(343 46% 11%);">
+           In other lifetimes, without any doubt i'll keep choosing you... Eu sou muito grata por ter você na minha vida, você é a melhor coisa que já me aconteceu, obrigada por existir ao mesmo tempo que eu <span>❤</span>
+        </span>
+  </div>
+  <a href="https://youtu.be/n5i3QRvPA9Y?si=CDYxa1J9iTZaZFBL" target="_blank">Ouvir ▶</a>
+</li>
+
+    </ul>
+
+    <footer>
+        <br />
+        Com Amor Sempre, 
+         <br />
+       Sua lice peace<span>❤</span>
+    </footer>
+  </div>
+</body>
+</html> 
